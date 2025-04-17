@@ -1,0 +1,18 @@
+{
+    "name": "Passei Direto Filter Bypass",
+    "version": "1.0",
+    "description": "Bypass filter for Passei Direto",
+    "manifest_version": 3,
+    "content_scripts": [
+      {
+        "js": ["main.js"],
+        "matches": [
+          "https://www.passeidireto.com/*"
+        ]
+      }
+    ],
+    "permissions": [
+      "activeTab"
+    ]
+  }
+  
